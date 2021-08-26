@@ -6,7 +6,7 @@
 
 [Aula 02 - Relacionamento com Banco de Dados](https://github.com/mrdouglasmorais/luizalabs-node/commit/1787250cb67570b88f9b6bc4ddabd23987009c7b)
 
-[Aula 03 - Criando usuário e utilizando o bcrypt](https://github.com/mrdouglasmorais/luizalabs-node/commit/1787250cb67570b88f9b6bc4ddabd23987009c7b)
+[Aula 03 - Criando usuário e utilizando o bcrypt](https://github.com/mrdouglasmorais/luizalabs-node/commit/183b564e158d31703920e710bdcf25fa6c6f0cc3)
 
 ## Serviços utilizados:
 
