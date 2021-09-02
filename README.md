@@ -8,7 +8,9 @@
 
 [Aula 03 - Criando usuário e utilizando o bcrypt](https://github.com/mrdouglasmorais/luizalabs-node/commit/183b564e158d31703920e710bdcf25fa6c6f0cc3)
 
-[Aula 03 - Validando dados e estruturando middleware](https://github.com/mrdouglasmorais/luizalabs-node/commit/3ba9d18d57f18762a64f8acc797afeea79952933)
+[Aula 04 - Validando dados e estruturando middleware](https://github.com/mrdouglasmorais/luizalabs-node/commit/3ba9d18d57f18762a64f8acc797afeea79952933)
+
+[Aula 05 - Criando relacionamentos](https://github.com/mrdouglasmorais/luizalabs-node/tree/45500cb23881cc70043ebfe19d26c437609d12aa)
 
 ## Serviços utilizados:
 
