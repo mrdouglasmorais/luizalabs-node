@@ -12,6 +12,8 @@
 
 [Aula 05 - Criando relacionamentos](https://github.com/mrdouglasmorais/luizalabs-node/tree/45500cb23881cc70043ebfe19d26c437609d12aa)
 
+[Aula 06 - Enviando arquivos](https://github.com/mrdouglasmorais/luizalabs-node/tree/40759f0a2fecd6abddee41b5d6ab276d1b19b2ab)
+
 ## Serviços utilizados:
 
 ### Banco de Dados
