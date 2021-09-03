@@ -9,7 +9,6 @@ class Appointments extends Model {
         sequelize
       }
     );
-
     return this;
   }
   static associate(models){
@@ -19,5 +18,3 @@ class Appointments extends Model {
 };
 
 export default Appointments;
-
-
