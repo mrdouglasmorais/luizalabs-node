@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "sucrase ./src -d ./build --transforms imports",
+    "swagger-autogen": "node ./swagger.js",
     "start": "node build/server.js",
     "dev": "source .env.local && nodemon src/server.js"
   },
@@ -25,11 +26,14 @@
     "pg": "^8.7.1",
     "pg-hstore": "^2.3.4",
     "sequelize": "^6.6.5",
+    "swagger-jsdoc": "^6.1.0",
+    "swagger-ui-express": "^4.1.6",
     "yup": "^0.32.9"
   },
   "devDependencies": {
     "nodemon": "^2.0.12",
     "sequelize-cli": "^6.2.0",
-    "sucrase": "^3.20.1"
+    "sucrase": "^3.20.1",
+    "swagger-autogen": "^2.11.2"
   }
 }

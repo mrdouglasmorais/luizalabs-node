@@ -10,10 +10,15 @@ import FileControllers from './app/controller/FileController';
 import NotificationController from './app/controller/NotificationController';
 // Upload de arquivos
 
+import swaggerUI from 'swagger-ui-express';
+import swaggerDocument from '../swagger';
+
 import authMiddleware from './app/middlewares/auth';
 
 const routes = new Router();
 const upload = multer(multerConfig)
+
+routes.use('/swagger', swaggerUI.serve, swaggerUI.setup(swaggerDocument))
 
 routes.post('/user', UserController.store);
 routes.post('/session', SessionController.store);
