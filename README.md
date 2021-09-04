@@ -16,6 +16,15 @@
 
 [Aula 07 - Tratando rotas e enviando arquivos](https://github.com/mrdouglasmorais/luizalabs-node/tree/896a23f6209ad33d4d1d85b4d29c2d6de48f1c7d)
 
+[Aula 09 - Conectando com MongoDB](https://github.com/mrdouglasmorais/luizalabs-node/tree/896a23f6209ad33d4d1d85b4d29c2d6de48f1c7d)
+
+[Aula 10 - Criando notificações](https://github.com/mrdouglasmorais/luizalabs-node/tree/896a23f6209ad33d4d1d85b4d29c2d6de48f1c7d)
+
+
+### mongoDB
+`user: luizalabs-nosql`
+`pass: L92h8u69h5tGX6iE`
+
 ## Serviços utilizados:
 
 ### Banco de Dados
