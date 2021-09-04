@@ -23,7 +23,7 @@ class Database{
   }
   mongo(){
     this.mongoConnection = mongoose.connect(
-      'mongodb+srv://luizalab-noslq:L92h8u69h5tGX6iE@luizacoders.flfpc.mongodb.net/Notifications?retryWrites=true&w=majority', 
+      process.env.MONGO_DB_CONNECT, 
       { useNewUrlParser: true, useUnifiedTopology: true }
     )
   }
