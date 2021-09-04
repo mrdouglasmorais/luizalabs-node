@@ -7,6 +7,7 @@ import UserController from './app/controller/UserController';
 import SessionController from './app/controller/SessionController';
 import AppointmentsController from './app/controller/AppointmentsController';
 import FileControllers from './app/controller/FileController';
+import NotificationController from './app/controller/NotificationController';
 // Upload de arquivos
 
 import authMiddleware from './app/middlewares/auth';
@@ -25,6 +26,10 @@ routes.put('/user', UserController.update);
 
 routes.post('/appointments', AppointmentsController.store);
 
+routes.get('/notifications', NotificationController.index);
+routes.put('/notifications/:id', NotificationController.update);
+
 routes.post('/files', upload.single('file'), FileControllers.store);
+
 
 export default routes;
